@@ -1,0 +1,40 @@
+#header {
+    background-color: #24353F;
+
+}
+
+#nav{
+    background-color: #24353F ;
+}
+
+.content{
+    box-shadow: 0 0 20px 5px ;
+    width: 900px;
+    margin-inline: auto;
+}
+
+.content h1{
+    padding: 2.5rem;
+}
+
+.body {
+ height: 90%;
+ display: flex;
+ align-items: center;
+}
+
+#logOutBtn:hover{
+    background-color: #FFC107;
+}
+
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:576px) {
+    html{
+        font-size: 10px;
+    }
+}

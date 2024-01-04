@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container  vh-100 d-flex align-items-center">
+            <div class="content p-5 text-center">
+                <h1 class="text-info">Smart Login System</h1>
+                <div class="my-4">
+                    <div class="mb-4">
+                        <input class="in form-control" id="userNameInput" type="text" name="name"
+                            placeholder="Enter your name" required>
+                        <p id="alertName" class="d-none text-danger">[A-z],[a-z],_,space </p>
+                    </div>
+                    <div class="mb-4">
+                        <input class="form-control" id="userEmailInput" type="email" name="email"
+                            placeholder="Enter your email" required>
+                        <p id='alertEmail' class="d-none text-danger">Invaild Emial</p>
+                    </div>
+                    <div class="mb-4">
+                        <input class="form-control " id="userPassInput" type="password" name="pass"
+                            placeholder="Enter your password" required>
+                        <p id='alertPass' class="d-none text-danger">at least 8 character</p>
+                    </div>
+                    <p id='alertCheck' class="d-none"></p>
+                </div>
+
+                <button id="signBtn" class="btn button border-info w-100 mb-2">Sign Up</button>
+
+                <p class="text-white">You have an account? <a id="signIn" href="#">Signin</a></p>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- main js -->
+    <script src="js/signup.js"></script>
+</body>
+
+</html>
