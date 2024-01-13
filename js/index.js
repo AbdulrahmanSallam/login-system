@@ -21,7 +21,7 @@ if (localStorage.getItem("users") != null) {
 loginBtn.addEventListener("click", function () {
   if (isInList()) {
     sessionStorage.setItem("name",userslist[index].name);//
-    location = "../home.html";
+    location = "./home.html";
   } else if (emailInput.value.length == 0 || passInput.value.length == 0) {
     alertP.innerHTML = "All inputs is required";
     alertP.classList.remove("d-none");
